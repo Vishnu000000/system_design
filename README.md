@@ -29,6 +29,9 @@ The efficency won't go away for the reason.
 
 There is some servers/some pizzashop chain, namedly have 5 pizza shop. Now there one load balancer like a central point, that takes the a api call to other 5 shops liek knwing whetther they are alive or nott. It is kind of working or not rrequest.
 
+
+No wto have persistent non corrupted database that s not specifc to any server, we introduce a database, which store the orders and seer and all the info like whether a order is done or not delivered yet.
+
 Now, each server/pizzashop got some many orders, some of offlien bases and another is delivery type.
 
 when a server or pizza shop closes, You can make the offline orders null, But deliveries can be split across and send to othe pizza shops, in this customer experince won't be affected much, this middle balancer is very importnat ffor this to function.
