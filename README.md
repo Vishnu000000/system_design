@@ -35,3 +35,11 @@ No wto have persistent non corrupted database that s not specifc to any server, 
 Now, each server/pizzashop got some many orders, some of offlien bases and another is delivery type.
 
 when a server or pizza shop closes, You can make the offline orders null, But deliveries can be split across and send to othe pizza shops, in this customer experince won't be affected much, this middle balancer is very importnat ffor this to function.
+
+- It can help balancing load
+- Not sending duplicates to it
+
+It is notifier, TThe one in middle, bascially load balancer too.
+
+A **message queue** is a communication mechanism used in software systems where one component (called the *producer*) sends a message to a queue, and another component (called the *consumer*) processes that message later. This allows tasks to be handled **asynchronously**, meaning the sender does not have to wait for the task to complete. The queue acts as a buffer that stores messages until they are processed, helping systems handle high traffic, improve performance, and remain reliable even if some parts temporarily fail. Message queues also **decouple services**, so different parts of an application can work independently, making the overall system more scalable and easier to maintain.
+
