@@ -48,7 +48,7 @@
 | Partial Analysis | Incomplete   | Limited   | Weak       | Runtime evidence missing                 |
 | XAPK Case        | Partial      | Medium    | Mixed      | Packaging limitation affected analysis   |
 
-## Table X: MTP-1 vs MTP-2 Comparison
+## Table 3.1: MTP-1 vs MTP-2 Comparison
 
 | Aspect              | MTP-1                  | MTP-2                          |
 |--------------------|------------------------|--------------------------------|
